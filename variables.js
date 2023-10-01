@@ -31,3 +31,9 @@ if (y1 > 0) {
     let myFlag = 'hi you are hacked';
 }
 console.log(myFlag);
+
+
+// constant: values can't be override
+const age = 34;
+// age = 45; // error: assignment to constant variable
+console.log(age);
