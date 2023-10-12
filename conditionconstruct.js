@@ -7,3 +7,37 @@ function checkAge(age) {
 }
 
 checkAge(17);
+
+
+function checkNumber(num) {
+    if (num >= 0) {
+        console.log('Number is positive')
+    }
+    else if (num < 0) {
+        console.log('Number is negative');
+    }
+    else {
+        console.log('zero number found');
+    }
+}
+
+checkNumber(23);
+
+
+// nested if else
+function findGrade(marks) {
+    let grade;
+    if (marks >= 90) {
+        grade = 'A';
+    }
+    else {
+        if (marks <= 80) {
+            grade = 'B'
+        }
+        if (marks <= 70) {
+            grade = 'C'
+        }
+    }
+    return grade;
+}
+console.log(findGrade(55));
