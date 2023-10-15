@@ -41,3 +41,15 @@ function findGrade(marks) {
     return grade;
 }
 console.log(findGrade(55));
+
+let browserName = 'chrome';
+
+if (browserName === 'chrome') {
+    console.log('launched chrome browser');
+}
+else if (browserName === 'firefox') {
+    console.log('launched firefox browse');
+}
+else {
+    console.log('invalid input');
+}
